@@ -7,7 +7,7 @@
     <title>Projeto Hotel</title>
 </head>
 <body class="bg-gray-50">
-    <main class="container mx-auto px-4 h-24 flex items-center">
+    <header class="container mx-auto px-4 h-24 flex items-center">
         <p class="font-black text-2xl">Logo</p>
 
         <nav class="ml-auto space-x-4">
@@ -16,14 +16,38 @@
             <a href="#" class="text-gray-600 hover:text-gray-400 hover:underline">Informações</a>
             <a href="#" class="text-gray-600 hover:text-gray-400 hover:underline">Contato</a>
         </nav>
-    </main>
-
-    <header>
-
     </header>
 
-    <footer>
+    <main style="background-image: url(images/pexels-thorsten-technoman-109353-338504.jpg); height: 585px; background-size: cover; background-attachment: fixed;">
+        <div class="h-full container mx-auto px-4 flex flex-col items-center justify-center">
+            <div class="text-center">
+                <h1 class="text-white text-3xl font-black mb-2">Onde você quer ir?</h1>
+                <p class="text-white">Escolha o estado e cidade para achar os melhores resorts.</p>
+            </div>
 
+            <div class="mt-2">
+                <form action="#" class="flex space-x-4">
+                    <select name="#" id="#" class="p-2 rounded text-gray-600">
+                        <option value="#">Escolha o estado</option>
+                    </select>
+
+                    <select name="#" id="#" class="p-2 rounded text-gray-600">
+                        <option value="#">Escolha a cidade</option>
+                    </select>
+
+                    <button class="flex items-center bg-orange-400 p-2 rounded text-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>                              
+                        Pesquisar resorts
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        
     </footer>
 </body>
 </html>
